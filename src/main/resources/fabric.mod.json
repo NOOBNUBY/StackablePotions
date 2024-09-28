@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "stackablepotions",
+  "version": "${version}",
+
+  "name": "StackablePotions",
+  "description": "Allows stacking of up to 16 potion items",
+  "authors": [
+    "noobnuby"
+  ],
+  "contact": {
+    "homepage": "https://127.0.0.1",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.noobnuby.fabric.MainMod"
+      }
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
