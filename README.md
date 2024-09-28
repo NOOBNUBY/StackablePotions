@@ -7,18 +7,5 @@
 [![Requires Fabric API](https://user-images.githubusercontent.com/76814120/123727642-e9100000-d8cc-11eb-9760-3d59f62820fc.png)
 ](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
-## Setup
-
-0. Create a new mod repository by pressing the "Use this template" button and clone the created repository.
-
-1. Import build.gradle file with IntelliJ IDEA
-
-2. Edit build.gradle and mod.json to suit your needs.
-    * Please go to settings.gradle.kts and change value of rootProject.name to your project name. 
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-3. Run!
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# License
+[MIT](https://github.com/NOOBNUBY/StackablePotions/blob/master/LICENSE)
